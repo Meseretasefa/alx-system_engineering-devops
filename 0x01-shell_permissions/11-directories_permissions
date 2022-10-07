@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod  751 * -type d
+cfind . -type d -exec chmod ugo=+x {} \;
