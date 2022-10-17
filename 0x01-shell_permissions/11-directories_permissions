@@ -1,2 +1,2 @@
 #!/bin/bash
-cfind . -type d chmod ugo=+x {}
+chmod -R ugo+X
